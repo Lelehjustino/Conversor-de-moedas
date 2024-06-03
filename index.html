@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - convertor de moedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<img src="./assets/logo.gif" alt="logo-do-convertor-de-moedas-do-DevClub" class="logo">
+<main>
+
+    <label>
+        Converter <b>de</b>
+        <select>
+
+            <option>R$ real brasileiro</option>
+
+
+        </select>
+
+    </label>
+    <label>
+        Converter <b>de</b>
+        <select class="currency-select">
+
+            <option  value="dolar">US$ Dólar americano</option>
+            <option  value="euro">€ Euro</option>
+            <option  value="libra">£ Libra</option>
+
+        </select>
+
+    </label>
+
+    <label>
+        Valor
+        <input type="text" id="valor" placeholder="R$ 10.000,00" class="input-valor">
+    </label>
+
+    <button class="convert-button">Converter</button>
+
+    <section>
+        <div class="centro">
+            <img src="./assets/BandeiraDoBrasil.png" alt="logo-moeda-a-converter" class="bandeiras">
+            <p class="currency">Real</p>
+            <p class="convert-value-to-convert">R$ 0,00</p>
+        </div>
+
+        <img src="./assets/Seta.png" class="centro">
+
+        <div class="centro">
+            <img class="imagembandeira" src="./assets/BandeiraEUA.png" alt="logo-moeda-a-convertida" class="bandeiras">
+            <p class="currency" id="currency-name">Dólar americano</p>
+            <p class="convert-value">US$ 0,00</p>
+        </div>
+    </section>
+
+</main>>
+    
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
