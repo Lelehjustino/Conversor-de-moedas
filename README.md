@@ -1,4 +1,4 @@
-<h2><a href="http://127.0.0.1:5500/index.HTML">Clique aqui para ver o projeto na web</a></h2>
+<h2><a href="[http://127.0.0.1:5500/index.HTML](https://charming-semolina-efba46.netlify.app/)">Clique aqui para ver o projeto na web</a></h2>
 
  🏠 / Sobre o projeto
 <p>Este projeto permite a conversão entre várias moedas, como Dólar, Euro, Libra e Bitcoin 
